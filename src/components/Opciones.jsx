@@ -12,7 +12,7 @@ const Opciones = () => {
                         Delivery
                       </div>
                       <input className="cursor-pointer cursor- grab [accent-color:rgb(201,0,0)] w-[0px] h-[0px] absolute opacity-0" type="radio" id="retiro" name="metodo" />
-                      <span className="w-[18px] h-[18px] border-red-200 border-2 rounded-[50%] inline-block relative cursor-pointer"></span>
+                      <span className="w-[18px] h-[18px] border-red-700 border-2 rounded-[50%] inline-block relative cursor-pointer"></span>
                     </label>
                     <label className="flex items-center justify-between w-auto px-[10px] py-[15px] border border-gray-200 rounded-[5px] bg-white cursor-pointer mt-[15px]">
                       <div className="flex items-center isolate cursor-pointer cursor-grab font-bold">
@@ -22,8 +22,8 @@ const Opciones = () => {
                         />
                         Retiro
                       </div>
-                      <input className="cursor-pointer cursor- grab [accent-color:rgb(201,0,0)] w-[0px] h-[0px] absolute opacity-0" type="radio" id="retiro" name="metodo" />
-                      <span className="w-[18px] h-[18px] border-red-200 border-2 rounded-[50%] inline-block relative cursor-pointer"></span>
+                      <input className="cursor-pointer cursor-grab [accent-color:rgb(201,0,0)] w-[0px] h-[0px] absolute opacity-0" type="radio" id="retiro" name="metodo" />
+                      <span className="w-[18px] h-[18px] border-red-700 border-2 rounded-[50%] inline-block relative cursor-pointer"></span>
                     </label>
                   </form>
                 </div>
