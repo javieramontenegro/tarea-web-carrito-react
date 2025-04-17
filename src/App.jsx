@@ -4,6 +4,7 @@ import "./App.css";
 import Steps from "./components/Steps";
 import Resume from "./components/Resume";
 import Container from "./components/Container";
+import Footer from "./components/Footer";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -27,6 +28,7 @@ function App() {
                     <section className="w-full h-auto flex justify-center"></section>
                 </div>
             </main>
+            <Footer/>
         </div>
     );
 }
