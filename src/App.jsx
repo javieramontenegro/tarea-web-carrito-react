@@ -16,19 +16,19 @@ function App() {
                 <div className="w-full">
                     <Steps />
                     <section className="w-full h-auto flex justify-center isolate">
-                        <div className="w-full h-auto max-w-[1200px] flex gap-4">
-                            <div className="w-full max-w-[50%] p-[10px]">
-                                <Resume/>
+                        <div className="w-full h-auto max-w-[1200px] flex gap-4 flex-col md:flex-row">
+                            <div className="w-full max-w-full md:max-w-[50%] p-[10px]">
+                                <Resume />
                             </div>
-                            <div className="w-full max-w-[50%] p-[10px] bg-gray-100">
-                                 <Container/>
+                            <div className="w-full max-w-full md:max-w-[50%]  p-[10px] bg-gray-100">
+                                <Container />
                             </div>
                         </div>
                     </section>
                     <section className="w-full h-auto flex justify-center"></section>
                 </div>
             </main>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

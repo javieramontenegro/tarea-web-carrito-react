@@ -13,14 +13,15 @@ const Steps = (props) => {
                         <p>{signo}</p>
                     </div>
                     <div class="flex content-center items-center gap-2">
-                        <span class="bg-red-600 rounded-full w-[30px] h-[30px] justify-center items-center content-center text-center text-white active">
+                        <span class="bg-red-600 rounded-full w-[30px] h-[30px] justify-center items-center content-center text-center text-white border-2 border-black">
                             2
                         </span>
                         <p>Confimación</p>
                         <p>{signo}</p>
                     </div>
+
                     <div class="flex content-center items-center gap-2">
-                        <span class="bg-red-600 rounded-full w-[30px] h-[30px] justify-center items-center content-center text-center text-white disabled">
+                        <span class="bg-gray-500 rounded-full w-[30px] h-[30px] justify-center items-center content-center text-center text-white ">
                             3
                         </span>
                         <p>Pago</p>
