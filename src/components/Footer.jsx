@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-  return (
-    <footer style={{ backgroundColor: '#f1f1f1', padding: '1rem', textAlign: 'center', marginTop: '2rem' }}>
-      <p>&copy; {new Date().getFullYear()} Vite + React. Todos los derechos reservados.</p>
-    </footer>
-  );
+    return (
+        <footer className="bg-black p-6 text-center mt-4 text-white">
+            <p>
+                &copy; {new Date().getFullYear()} Vite + React. Todos los
+                derechos reservados.
+            </p>
+        </footer>
+    );
 };
 
 export default Footer;
