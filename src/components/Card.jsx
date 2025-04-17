@@ -20,7 +20,7 @@ const Card = () => {
                     </p>
                 </div>
             </div>
-            <button className="self-start border-0 bg-white cursor-pointer cursor-grab pt-[3px] pr-[5px] pb-[3px] pl-[5px] rounded-[5px]">
+            <button className="self-start border-0 bg-white cursor-pointer pt-[3px] pr-[5px] pb-[3px] pl-[5px] rounded-[5px]">
                 X
             </button>
         </div>
