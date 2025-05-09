@@ -10,7 +10,7 @@ const Header = (props) => {
                         className="w-full h-auto max-w-[60px]"
                     />
                 </a>
-                <ul className=" text-white flex justify-between w-[70%] flex-col sm:flex-row md:w-[50%]  items-center ">
+                <ul className=" text-white flex justify-end gap-6 w-[70%] flex-col sm:flex-row md:w-[50%]  items-center ">
                     <li>
                         <a href=""> Home </a>
                     </li>
